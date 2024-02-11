@@ -67,19 +67,21 @@ body {
     transform: scale(1.2);
 }
 
-.main .main-detil {
+.main .main-detail {
     text-align: center;
     color: white;
 }
 
-.main .main-detil h1 {
+.main .main-detail h1 {
     font-size: 50px;
 
 }
+.main .main-detail h4:nth-of-type(2)
 
-.main .main-detil h4 {
-    font-size: 30px;
+.main .main-detail h4 span{
+    font-size: 100px;
     margin-bottom: 20px;
+    color:red;
 }
 
 .main .btn .btn-1 {
@@ -107,7 +109,7 @@ body {
 }
 
 .main .btn .btn-1:hover,.btn .btn-2:hover {
-    background: #800bc4;
+    background: green;
     transform: scale(1.1);
 }
 
